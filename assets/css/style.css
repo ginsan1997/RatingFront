@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(16, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blockAboutTable{
+    display: flex;
+    width: 290px;
+    margin-bottom: 8px;
+    padding: 8px;
+    justify-content: space-between;
+}
+.Data{
+    color: rgb(36, 37, 50);
+    font-weight: 700;
+}
+.areaWithItems{
+    flex-direction: column;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    width: 351px;
+    height: auto;
+    background: rgb(24, 24, 30);
+    border-right: 16px  solid rgb(36, 37, 50);
+    border-left: 16px  solid rgb(36, 37, 50);
+}
+
+.blockItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 12px 12px 12px;
+    width: 279px;
+    height: 50px;
+    background: rgb(36, 37, 50);
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+.rank{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30, 31, 47);
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 800;
+    width: 30px;
+    height: 30px;
+    color: rgb(235, 235, 235);
+}
+.imgProfile{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-left: 12px;
+}
+.imgProfile img {
+    width: auto;
+}
+.blockLogoName{
+    display: flex;
+    width: 190px;
+    align-items: center;
+}
+.blockNameProgile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 45px;
+    max-width: 95px;
+    overflow: hidden;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 700;
+    margin-left: 8px;
+    color: rgb(235, 235, 235);
+}
+.experianceBlock{
+    margin-left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(235, 235, 235);
+    border-radius: 50%;
+   
+}
+.blockBorderExp{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+}
+.blockbackGreen{
+    background: rgb(178, 235, 98);
+    display: flex;
+    align-items: flex-end;
+    width: 50px;
+    z-index: 1;
+    transition: 0.4s;
+
+    position: absolute;
+}
+.blockbackBlack{
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+}
+.numRank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: rgb(36, 37, 50);;
+}
+
